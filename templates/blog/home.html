@@ -1,0 +1,177 @@
+
+
+{% load static %}	
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="static/css/mystyle.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	
+
+</head>
+<body>
+
+
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand my" href="{% url 'home' %}">MY-PERSONAL</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	    <div class="navbar-nav">
+
+	    </div>
+
+  </div>
+  <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
+	      
+	      <a class="nav-item nav-link" href="{% url 'about' %} ">Contact</a>
+	    
+</nav>
+
+
+
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 h-100">
+				<div class="card card-body h-100 border-info" class="profile">
+					<img id = "pic" src="{% static 'images/m4.png' %}">
+					<hr>
+					<h3>I'm Mehedi Hasan Mahin</h3>
+					<h5>@~Computer scientis</h5>
+					<p>Coding is my passion and love. Research is my Happiness</p>
+					<hr>
+					<ul class="so_link">
+						<li><img class="social" src="{% static 'images/fb.png' %}"></li>
+						<li><img class = "social" src="{% static 'images/t.png' %}"></li>
+						<li><img class="social" src="{% static 'images/l.png' %}"></li>
+						<li><img class="social" src="{% static 'images/youtube.png' %}"></li>
+
+
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-8">
+				<div class="card card-body h-100 border-info">
+					<h3>~Somethig~</h3>
+					<hr>
+					<p>Computer science engineering (CSE) is one of the popular courses among engineering aspirants which focuses on the basic elements of computer programming and networking. Students pursuing computer science courses will gain knowledge of design, implementation and management of information system of both hardware and software. Going by the name, CSE course deals primarily with the theory of computation and design of computational systems.</p>
+					<p>The present and future world can’t live without technology and the boom in the technology sector will lead to lucrative opportunities.
+					Increasing number of software companies and IT hubs like ‘Silicon Valley’ indicate an increasing demand for CSE experts.
+					Concepts like ‘cloud computing’ upon which future technologies will be based need specialists in this domain.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6 ">
+				<div class="card card-body h-100 border-info">
+					<h4>~WORK EXPERIENCE~</h4>
+					<hr>
+					
+					<p>Make a personal website using django</p>
+					<p>A weather web app</p>
+					<p>Desktop app using java</p>
+					<p>Making bangking app and calculator using c++</p>
+				</div>
+			</div>
+			<div class="col-md-6 h-100">
+				<div class="card card-body border-info">
+						<h4>~EDUCATION~</h4>
+					<hr>
+
+					<p>
+						<h5>B.Sc. of Computer Science and Engineering</h5>
+						<p>American International University,Bangladesh</p>
+						<p>2017 -  2021</p>
+						<h5>Govt. Ashek Mahmud Collage ,Jamalpur</h5>
+						<p>2014 - 2016</p>
+						<h5>Jamalpur Zill School,Jamalpur</h5>
+						<p>2012 - 2014</p>
+					</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6 h-100">
+				<div class="card card-body border-info">
+						<h4>~TECHNICAL SKILLS~</h4>
+					<hr>
+					<h5>Tools:</h5>
+
+					<p>NetBeans,MS Visual Studio,Vs code,Pychram</p>
+					<h5>Database Management:</h5>
+					<p>Oracle 8.x,SQL server,MySQL</p>
+					<h5>Languages:</h5>
+					<p>Python,HTML,CSS,C++,C,Java</p>
+					<h5>Cloud Techonology:</h5>
+					<p>Django web framwork</p>
+				
+				</div>
+			</div>
+			<div class="col-md-6 h-100">
+				<div class="card card-body border-info">
+						<h4>~SOFT SKILLS~</h4>
+
+					<hr>
+
+					<h5>Adaptability</h5>
+					<h5>Communications</h5>
+					<h5>Strong Work Ethic</h5>
+					<h5>Problem solving</h5>
+					<h5>Quick Learner</h5>
+					<h5>Teamwork</h5>
+					<h5>Self-management</h5>
+					<h5>Confidence</h5>
+					<h5>Flexibility</h5>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6 h-100">
+				<div class="card card-body border-info">
+						<h4>~HARD SKILL~</h4>
+					<hr>
+					<h5>Operating System</h5>
+					<h6>Windows</h6>
+					<h6>Linux(Ubuntu)</h6>
+					<h6>Linux(Kali-linux)</h6>
+					<h6>Android</h6>
+					<h6>Debian</h6>
+
+
+				</div>
+			</div>
+			<div class="col-md-6 h-100">
+				<div class="card card-body border-info">
+						<h4>~INTERESTS~</h4>
+					<hr>
+					<ol>
+						<h5>Arificial Intelligence</h5>
+						<p>Machine Learning</p>
+						<p>Image processing</p>
+						<h5>Video Games</h5>
+						<p>Fifa 14,18,19</p>
+						<p>Pubg,Modern combat</p>
+
+						<h5>Travelling</h5>
+						<p>All over the country</p>
+						<p>Playing Football</p>
+
+					</ol>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
